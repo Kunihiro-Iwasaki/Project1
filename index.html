@@ -26,7 +26,8 @@
         }
 
         .header {
-            padding: 3em 0;
+            padding: 0;
+            font-size: 1rem;
         }
 
         a {
@@ -49,7 +50,7 @@
         figcaption {
             font-size: 0.8em;
             text-align: left;
-            margin-top: 0.5em;
+            margin-top: 0.2em;
             margin-bottom: 0em;
             color: #666;
         }
@@ -63,6 +64,12 @@
 
         .subhead {
             font-family: 'Lora', Georgia, serif;
+            font-size: 1rem;
+        }
+
+        .byline {
+            font-size: 1rem;
+            text-align: center;
         }
 
         iframe,
@@ -115,7 +122,7 @@
         background-position: center ;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 2em;
+        margin-bottom: 0.2em;
 
             width: 100%;
             aspect-ratio: 16/9;
@@ -159,7 +166,7 @@
         }
 
         .subhead {
-            font-size: 1.9rem;
+            font-size: 1.5rem;
         }
 
         .modal {
@@ -279,11 +286,14 @@
 <body>
     <div class="header with-image-bg">
         <div class="title-box">
-        <h1>74% of Food Trucks Don’t Display Prices</h1>
-        <p class="subhead">A Hotbed for Price Gouging, or a Result of Rising Prices?</p>
         </div>
     </div>
+    <figcaption>In Manhattan, New York, many tourists eat at food trucks. Photo by Kunihiro Iwasaki
+      </figcaption>
     <div class="content">
+        <div class="header">
+        <h1>74% of Food Trucks Don’t Display Prices</h1></div>
+        <p class="subhead">A Hotbed for Price Gouging, or a Result of Rising Prices?</p>
         <div class="byline">
             <p>By Kunihiro Iwasaki</p>
         </div>
@@ -363,20 +373,20 @@
     // Entering Step One
   d3.select("#step1").on('stepin',function(e) {
     console.log("We've arrived at STEP ONE in the photo div")
-    d3.select("#scrollyPhoto").attr("src", "Copy of project1_1_1.png");
+    d3.select("#scrollyPhoto").attr("src", "project1_1_1.png");
   })
 
     // Entering Step Two
     d3.select("#step2").on('stepin',function(e) {
     console.log("We've arrived at STEP TWO in the photo div")
-    d3.select("#scrollyPhoto").attr("src", "Copy of project1_1_2.png");
+    d3.select("#scrollyPhoto").attr("src", "project1_1_2.png");
 
   })
 
     // Entering Step Three
     d3.select("#step3").on('stepin',function(e) {
     console.log("We've arrived at STEP Three in the photo div")
-    d3.select("#scrollyPhoto").attr("src", "Copy of project1_1_2.png");
+    d3.select("#scrollyPhoto").attr("src", "project1_1_2.png");
   })
 
 </script>
