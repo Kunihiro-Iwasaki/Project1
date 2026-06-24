@@ -276,15 +276,7 @@
           flex-grow: 2;
         }
       }
-     @media (max-width: 640px) {
-
-    #zoomBox {
-        margin-left: 0 !important;
-        max-width: 100% !important;
-        overflow: visible;
-    }
-
-}
+    
     </style>
 		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
@@ -420,6 +412,13 @@
 		});
 
 	window.addEventListener("resize", scroller.resize);
+
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+        scroller.resize();
+    }, 300);
+});
+
     </script>
 
 
