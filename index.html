@@ -217,7 +217,7 @@
         margin: 0;
         z-index: 0;
         top: 0;
-        height: 100vh;
+        height: 100dvh;
         /* Center everything inside */
         display: flex;
         justify-content: center;
@@ -226,6 +226,9 @@
       }
 
       .step {
+        min-height:0vh;
+        z-index: 10;
+        position: relative;
         margin: 0 auto 2rem auto;
         margin-bottom: 25rem;
         background-color: #eee;
