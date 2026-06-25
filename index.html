@@ -276,7 +276,13 @@
           flex-grow: 2;
         }
       }
-    
+    @media (max-width: 640px) {
+
+    .step {
+        min-height: 80vh;
+    }
+
+}
     </style>
 		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
@@ -313,7 +319,7 @@
     <p>New York City has a law requiring businesses to display prices. What is the actual situation?</p>
     <p>On June 17 and 19, the Nikkei visually surveyed a total of 85 food trucks in and around Central Park, one of New York’s top tourist destinations.</p>
 
-    <section id="scrolly">
+    <section id="scrolly" >
         <div class="sticky-thing">
           <div id="zoomBox">
 <!-- Sticky Thing 1 goes below this line -->
