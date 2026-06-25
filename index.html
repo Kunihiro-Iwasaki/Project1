@@ -202,7 +202,7 @@
 
       .scrolly-overlay {
         position: relative;
-        z-index: 10;
+        z-index: 20;
         padding: 0;
         max-width: 35rem;
         margin-left: 2px;
@@ -215,7 +215,7 @@
         left: 0;
         width: 100%;
         margin: 0;
-        z-index: 0;
+        z-index: 1;
         top: 0;
         height: 90dvh;
         /* Center everything inside */
@@ -227,7 +227,8 @@
 
       .step {
         min-height:1vh;
-        z-index: 10;
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.95);
         position: relative;
         margin: 0 auto 2rem auto;
         margin-bottom: 25rem;
@@ -403,7 +404,7 @@
 		.setup({
 			step: "#scrolly .scrolly-overlay .step",
 			offset: 0.5,
-			debug: true
+			debug: false
 		})
 		.onStepEnter(function({ element, index, direction}) {
 			const event = new CustomEvent('stepin', { detail: { direction: direction } })
