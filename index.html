@@ -202,6 +202,7 @@
 
       .scrolly-overlay {
         position: relative;
+        transform: translateZ(0);
         z-index: 20;
         padding: 0;
         max-width: 35rem;
@@ -212,12 +213,14 @@
       .sticky-thing {
         position: -webkit-sticky;
         position: sticky;
+        transform: translateZ(0);
         left: 0;
         width: 100%;
         margin: 0;
         z-index: 1;
         top: 0;
-        height: 90dvh;
+        height: 100dvh;
+
         /* Center everything inside */
         display: flex;
         justify-content: center;
@@ -228,6 +231,7 @@
       .step {
         min-height:1vh;
         z-index: 100;
+        transform: translateZ(0);
         background: rgba(255, 255, 255, 0.95);
         position: relative;
         margin: 0 auto 2rem auto;
