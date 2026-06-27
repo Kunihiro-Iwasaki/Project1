@@ -4,7 +4,9 @@
 ## Title
 74% of Food Trucks Don’t Display Prices
 ## Aimed to accomplish
-Food trucks that do not display prices are a common sight at tourist spots in Manhattan, and they could easily become hotbeds for price gouging. New York City has a law requiring price displays, but is it actually effective? I investigate the reality of the situation. Since so many people read the news on their smartphones these days, I paid special attention to readability on smartphones.
+Food trucks that do not display prices are a common sight at tourist spots in Manhattan, and they could easily become hotbeds for price gouging. New York City has a municipal ordinance requiring price displays, but is it actually effective? I investigate the reality of the situation. Since so many people read the news on their smartphones these days, I paid special attention to readability on smartphones.
+## Short description of findings
+Of the 85 food trucks in and around Central Park, 63—or 74 percent—did not display their prices. New York City ordinances require prices to be displayed.
 ## Summmary of the data collection
 Over two days, on June 17 and 19, I conducted on-site visual inspections of 85 food trucks located in and around Central Park.
 ## Overview of the data analysis process
